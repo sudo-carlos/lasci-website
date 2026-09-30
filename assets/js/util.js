@@ -41,6 +41,8 @@
 	 */
 	$.fn.panel = function(userConfig) {
 
+		var $this = $(this);
+
 		// No elements?
 			if (this.length == 0)
 				return $this;
@@ -56,8 +58,7 @@
 			}
 
 		// Vars.
-			var	$this = $(this),
-				$body = $('body'),
+			var	$body = $('body'),
 				$window = $(window),
 				id = $this.attr('id'),
 				config;
@@ -302,9 +303,11 @@
 	 */
 	$.fn.placeholder = function() {
 
+		var $this = $(this);
+
 		// Browser natively supports placeholders? Bail.
 			if (typeof (document.createElement('input')).placeholder != 'undefined')
-				return $(this);
+				return $this;
 
 		// No elements?
 			if (this.length == 0)

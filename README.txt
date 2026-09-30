@@ -1,30 +1,32 @@
-Phantom by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+LaSCI - Laboratório de Simulações Computacionais Inteligentes
+================================================================
 
+Site institucional estático do LaSCI, laboratório universitário de pesquisa
+em simulações computacionais, CFD, escoamentos multifásicos e engenharia.
 
-This is Phantom, a simple design built around a grid of large, colorful, semi-interactive
-image tiles (of which you can have as many or as few as you like). Makes use of some
-SVG and animation techniques I've been experimenting with on that other project of mine
-you may have heard about (https://carrd.co), and includes a handy generic page for whatever.
+Páginas principais
+------------------
+- index.html: apresentação do laboratório e linhas de pesquisa.
+- pesquisadores.html: coordenador e colaboradores.
+- estudantes.html: estudantes vinculados ao laboratório.
+- publicacoes.html: publicações agrupadas por ano.
+- infraestrutura.html: espaços e equipamentos.
+- contato.html: e-mail e LinkedIn institucional.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+Recursos
+--------
+- assets/css/main.css: estilos carregados pelas páginas.
+- assets/sass/: fontes Sass do tema e dos componentes.
+- assets/js/: navegação e comportamento responsivo do tema.
+- images/: logotipos, retratos e figuras de pesquisa.
 
-(* = not included)
+Publicação
+----------
+O site é publicado pelo GitHub Pages por meio de
+.github/workflows/static.yml, a partir da branch main.
 
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Créditos e licença
+------------------
+A estrutura visual deriva do tema Phantom, de HTML5 UP. Consulte LICENSE.txt
+para os termos de licença. Ícones fornecidos por Font Awesome; jQuery e
+Responsive Tools são mantidos por seus respectivos autores.
